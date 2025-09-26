@@ -1,0 +1,4724 @@
+[
+  {
+    "patient_id": "P001",
+    "visit_date": "2025-09-14",
+    "visit_time": "11:15",
+    "age": 57,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 3 days",
+        "priority": 1
+      },
+      {
+        "symptom": "rash",
+        "details": "rash reported for 8 days",
+        "priority": 2
+      },
+      {
+        "symptom": "joint pain",
+        "details": "joint pain reported for 4 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "none",
+      "current_medications": [],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "hypertension",
+        "asthma",
+        "iron deficiency anemia"
+      ],
+      "hospitalizations": [
+        "2020 - bypass surgery"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.5,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "rash",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 16,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "clear",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "118/63",
+      "pulse": "94 regular",
+      "heart_rate": 89,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "constipation",
+        "heartburn"
+      ],
+      "abdomen": "soft",
+      "liver": "enlarged",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P002",
+    "visit_date": "2025-09-18",
+    "visit_time": "10:30",
+    "age": 56,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 3 days",
+        "priority": 1
+      },
+      {
+        "symptom": "fatigue",
+        "details": "fatigue reported for 2 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "heart disease",
+      "current_medications": [
+        "omeprazole"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [],
+      "hospitalizations": [
+        "2006 - bypass surgery"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "drowsy",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "apathetic",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.4,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "pale",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 28,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "clear",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "113/61",
+      "pulse": "93 regular",
+      "heart_rate": 64,
+      "edema": "ankle edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P003",
+    "visit_date": "2025-09-20",
+    "visit_time": "16:45",
+    "age": 33,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "cough",
+        "details": "cough reported for 5 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "hypertension",
+      "current_medications": [
+        "lisinopril",
+        "metformin"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [],
+      "hospitalizations": [
+        "2009 - none"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "bedridden",
+      "constitution": "hypersthenic",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.6,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "cyanotic",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 18,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "none",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "139/72",
+      "pulse": "81 regular",
+      "heart_rate": 92,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [],
+      "abdomen": "tense",
+      "liver": "enlarged",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P004",
+    "visit_date": "2025-09-10",
+    "visit_time": "17:45",
+    "age": 64,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 6 days",
+        "priority": 1
+      },
+      {
+        "symptom": "rash",
+        "details": "rash reported for 5 days",
+        "priority": 2
+      },
+      {
+        "symptom": "cough",
+        "details": "cough reported for 3 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "cancer",
+      "current_medications": [
+        "omeprazole"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "coronary artery disease"
+      ],
+      "hospitalizations": [
+        "2006 - appendectomy"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "drowsy",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "asthenic",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.5,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "cyanotic",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 14,
+      "auxiliary_muscles": false,
+      "cough": "none",
+      "sputum": "greenish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "116/88",
+      "pulse": "88 regular",
+      "heart_rate": 86,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [],
+      "abdomen": "tender",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P005",
+    "visit_date": "2025-09-14",
+    "visit_time": "11:15",
+    "age": 56,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "memory loss",
+        "details": "memory loss reported for 4 days",
+        "priority": 1
+      },
+      {
+        "symptom": "back pain",
+        "details": "back pain reported for 9 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "none"
+      ],
+      "family_history": "diabetes",
+      "current_medications": [
+        "metformin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "type 2 diabetes"
+      ],
+      "hospitalizations": [
+        "2014 - C-section"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "bedridden",
+      "constitution": "hypersthenic",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.8,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "cyanotic",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 16,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "yellowish",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "103/97",
+      "pulse": "95 regular",
+      "heart_rate": 96,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "nausea",
+        "diarrhea"
+      ],
+      "abdomen": "tender",
+      "liver": "normal",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P006",
+    "visit_date": "2025-09-14",
+    "visit_time": "9:00",
+    "age": 71,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "joint pain",
+        "details": "joint pain reported for 11 days",
+        "priority": 1
+      },
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 8 days",
+        "priority": 2
+      },
+      {
+        "symptom": "nausea",
+        "details": "nausea reported for 11 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "Alzheimer\u2019s disease",
+      "current_medications": [
+        "amlodipine",
+        "lisinopril",
+        "aspirin"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "migraine"
+      ],
+      "hospitalizations": [
+        "2017 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "bedridden",
+      "constitution": "asthenic",
+      "emotional_status": "normal",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.5,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "pale",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 16,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "yellowish",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "100/99",
+      "pulse": "66 regular",
+      "heart_rate": 73,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "vomiting"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P007",
+    "visit_date": "2025-08-31",
+    "visit_time": "17:45",
+    "age": 76,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "rash",
+        "details": "rash reported for 13 days",
+        "priority": 1
+      },
+      {
+        "symptom": "nausea",
+        "details": "nausea reported for 13 days",
+        "priority": 2
+      },
+      {
+        "symptom": "dizziness",
+        "details": "dizziness reported for 6 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs"
+      ],
+      "family_history": "stroke",
+      "current_medications": [
+        "metformin",
+        "omeprazole"
+      ],
+      "past_infections": [
+        "influenza"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "coronary artery disease",
+        "COPD",
+        "rheumatoid arthritis"
+      ],
+      "hospitalizations": [
+        "2019 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "drowsy",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "bedridden",
+      "constitution": "hypersthenic",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.4,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 20,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "yellowish",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "130/83",
+      "pulse": "70 regular",
+      "heart_rate": 87,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "heartburn",
+        "nausea"
+      ],
+      "abdomen": "tense",
+      "liver": "normal",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P008",
+    "visit_date": "2025-09-16",
+    "visit_time": "16:15",
+    "age": 35,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "headache",
+        "details": "headache reported for 12 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "penicillin"
+      ],
+      "family_history": "cancer",
+      "current_medications": [
+        "lisinopril"
+      ],
+      "past_infections": [
+        "influenza"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "hypothyroidism",
+        "rheumatoid arthritis",
+        "hypertension"
+      ],
+      "hospitalizations": [
+        "2006 - C-section"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "asthenic",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.6,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 12,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "clear",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "112/68",
+      "pulse": "63 regular",
+      "heart_rate": 70,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [],
+      "abdomen": "tender",
+      "liver": "enlarged",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P009",
+    "visit_date": "2025-09-19",
+    "visit_time": "12:00",
+    "age": 77,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "dizziness",
+        "details": "dizziness reported for 8 days",
+        "priority": 1
+      },
+      {
+        "symptom": "cough",
+        "details": "cough reported for 8 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "diabetes",
+      "current_medications": [
+        "amlodipine",
+        "lisinopril"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [],
+      "hospitalizations": [
+        "2014 - appendectomy"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "apathetic",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.0,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 27,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "clear",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "158/93",
+      "pulse": "100 regular",
+      "heart_rate": 98,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "constipation",
+        "vomiting"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P010",
+    "visit_date": "2025-09-13",
+    "visit_time": "17:45",
+    "age": 22,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "fatigue",
+        "details": "fatigue reported for 6 days",
+        "priority": 1
+      },
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 1 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "penicillin"
+      ],
+      "family_history": "heart disease",
+      "current_medications": [
+        "metformin",
+        "insulin",
+        "aspirin"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "hypertension",
+        "chronic kidney disease"
+      ],
+      "hospitalizations": [
+        "2003 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "bedridden",
+      "constitution": "hypersthenic",
+      "emotional_status": "normal",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.8,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "cyanotic",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 20,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "yellowish",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "119/77",
+      "pulse": "93 regular",
+      "heart_rate": 79,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "heartburn"
+      ],
+      "abdomen": "tender",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P011",
+    "visit_date": "2025-08-31",
+    "visit_time": "9:45",
+    "age": 79,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "vomiting",
+        "details": "vomiting reported for 4 days",
+        "priority": 1
+      },
+      {
+        "symptom": "abdominal pain",
+        "details": "abdominal pain reported for 1 days",
+        "priority": 2
+      },
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 11 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "cancer",
+      "current_medications": [
+        "levothyroxine",
+        "lisinopril",
+        "metformin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "type 2 diabetes",
+        "rheumatoid arthritis"
+      ],
+      "hospitalizations": [
+        "2011 - appendectomy"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "asthenic",
+      "emotional_status": "apathetic",
+      "sleep": "disturbed",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.4,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 23,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "none",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "156/93",
+      "pulse": "92 regular",
+      "heart_rate": 63,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "heartburn"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P012",
+    "visit_date": "2025-09-10",
+    "visit_time": "14:15",
+    "age": 41,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "cough",
+        "details": "cough reported for 9 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "Alzheimer\u2019s disease",
+      "current_medications": [
+        "omeprazole",
+        "atorvastatin",
+        "metformin"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "type 2 diabetes",
+        "iron deficiency anemia",
+        "asthma"
+      ],
+      "hospitalizations": [
+        "2013 - C-section"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "normal",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.1,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 28,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "greenish",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "111/87",
+      "pulse": "69 regular",
+      "heart_rate": 94,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "heartburn"
+      ],
+      "abdomen": "tender",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P013",
+    "visit_date": "2025-08-27",
+    "visit_time": "8:30",
+    "age": 32,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "fever",
+        "details": "fever reported for 14 days",
+        "priority": 1
+      },
+      {
+        "symptom": "back pain",
+        "details": "back pain reported for 9 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs",
+        "aspirin"
+      ],
+      "family_history": "diabetes",
+      "current_medications": [
+        "atorvastatin",
+        "insulin",
+        "levothyroxine"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "iron deficiency anemia",
+        "hypothyroidism"
+      ],
+      "hospitalizations": [
+        "2008 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "drowsy",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "hypersthenic",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.8,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 22,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "clear",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "135/89",
+      "pulse": "65 regular",
+      "heart_rate": 77,
+      "edema": "ankle edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "nausea",
+        "constipation"
+      ],
+      "abdomen": "tender",
+      "liver": "tender",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P014",
+    "visit_date": "2025-09-02",
+    "visit_time": "8:00",
+    "age": 24,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "rash",
+        "details": "rash reported for 13 days",
+        "priority": 1
+      },
+      {
+        "symptom": "headache",
+        "details": "headache reported for 13 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "penicillin",
+        "aspirin"
+      ],
+      "family_history": "none",
+      "current_medications": [
+        "lisinopril",
+        "aspirin",
+        "omeprazole"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [],
+      "hospitalizations": [
+        "2006 - appendectomy"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "asthenic",
+      "emotional_status": "normal",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.5,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "cyanotic",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 24,
+      "auxiliary_muscles": false,
+      "cough": "none",
+      "sputum": "clear",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "101/76",
+      "pulse": "73 regular",
+      "heart_rate": 99,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "heartburn"
+      ],
+      "abdomen": "tense",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P015",
+    "visit_date": "2025-09-12",
+    "visit_time": "13:30",
+    "age": 38,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "back pain",
+        "details": "back pain reported for 13 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs"
+      ],
+      "family_history": "none",
+      "current_medications": [
+        "atorvastatin",
+        "omeprazole"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "asthma",
+        "migraine",
+        "coronary artery disease"
+      ],
+      "hospitalizations": [
+        "2018 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.7,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "rash",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 21,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "clear",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "129/89",
+      "pulse": "70 regular",
+      "heart_rate": 82,
+      "edema": "ankle edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "normal",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P016",
+    "visit_date": "2025-09-05",
+    "visit_time": "13:15",
+    "age": 51,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "back pain",
+        "details": "back pain reported for 1 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "aspirin",
+        "sulfa drugs"
+      ],
+      "family_history": "stroke",
+      "current_medications": [],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "coronary artery disease",
+        "rheumatoid arthritis",
+        "COPD"
+      ],
+      "hospitalizations": [
+        "2011 - appendectomy"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "asthenic",
+      "emotional_status": "apathetic",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.9,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 17,
+      "auxiliary_muscles": false,
+      "cough": "none",
+      "sputum": "greenish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "114/74",
+      "pulse": "80 regular",
+      "heart_rate": 100,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "heartburn"
+      ],
+      "abdomen": "tender",
+      "liver": "enlarged",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P017",
+    "visit_date": "2025-09-21",
+    "visit_time": "12:00",
+    "age": 73,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "fever",
+        "details": "fever reported for 13 days",
+        "priority": 1
+      },
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 2 days",
+        "priority": 2
+      },
+      {
+        "symptom": "vomiting",
+        "details": "vomiting reported for 10 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "hypertension",
+      "current_medications": [],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "hypothyroidism",
+        "iron deficiency anemia"
+      ],
+      "hospitalizations": [
+        "2003 - appendectomy"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "bedridden",
+      "constitution": "asthenic",
+      "emotional_status": "apathetic",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.5,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 28,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "clear",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "160/100",
+      "pulse": "79 regular",
+      "heart_rate": 78,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "nausea",
+        "constipation"
+      ],
+      "abdomen": "tense",
+      "liver": "normal",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P018",
+    "visit_date": "2025-09-05",
+    "visit_time": "15:45",
+    "age": 56,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "vomiting",
+        "details": "vomiting reported for 4 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "diabetes",
+      "current_medications": [
+        "omeprazole",
+        "amlodipine"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "rheumatoid arthritis",
+        "chronic kidney disease"
+      ],
+      "hospitalizations": [
+        "2013 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.0,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "rash",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 13,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "none",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "129/100",
+      "pulse": "69 regular",
+      "heart_rate": 70,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "nausea",
+        "diarrhea"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P019",
+    "visit_date": "2025-09-14",
+    "visit_time": "13:45",
+    "age": 71,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 2 days",
+        "priority": 1
+      },
+      {
+        "symptom": "memory loss",
+        "details": "memory loss reported for 6 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "none",
+      "current_medications": [
+        "lisinopril",
+        "aspirin"
+      ],
+      "past_infections": [
+        "influenza"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [],
+      "hospitalizations": [
+        "2012 - appendectomy"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "hypersthenic",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.7,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 12,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "yellowish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "140/79",
+      "pulse": "83 regular",
+      "heart_rate": 99,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "enlarged",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P020",
+    "visit_date": "2025-08-27",
+    "visit_time": "9:00",
+    "age": 39,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "abdominal pain",
+        "details": "abdominal pain reported for 12 days",
+        "priority": 1
+      },
+      {
+        "symptom": "rash",
+        "details": "rash reported for 8 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs"
+      ],
+      "family_history": "diabetes",
+      "current_medications": [],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "COPD"
+      ],
+      "hospitalizations": [
+        "2016 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "drowsy",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "bedridden",
+      "constitution": "asthenic",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.0,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "pale",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 13,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "clear",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "159/89",
+      "pulse": "88 regular",
+      "heart_rate": 84,
+      "edema": "ankle edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "normal",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P021",
+    "visit_date": "2025-09-06",
+    "visit_time": "14:45",
+    "age": 53,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 10 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "stroke",
+      "current_medications": [
+        "amlodipine",
+        "metformin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "asthma",
+        "coronary artery disease",
+        "iron deficiency anemia"
+      ],
+      "hospitalizations": [
+        "2020 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "drowsy",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "apathetic",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.3,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "rash",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 19,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "yellowish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "117/64",
+      "pulse": "93 regular",
+      "heart_rate": 66,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "vomiting",
+        "diarrhea"
+      ],
+      "abdomen": "tender",
+      "liver": "tender",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P022",
+    "visit_date": "2025-09-01",
+    "visit_time": "11:30",
+    "age": 40,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "chest pain",
+        "details": "chest pain reported for 2 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs",
+        "aspirin"
+      ],
+      "family_history": "heart disease",
+      "current_medications": [
+        "lisinopril",
+        "amlodipine",
+        "levothyroxine"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "coronary artery disease"
+      ],
+      "hospitalizations": [
+        "2019 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "bedridden",
+      "constitution": "asthenic",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.8,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "cyanotic",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 24,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "yellowish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "131/92",
+      "pulse": "81 regular",
+      "heart_rate": 75,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "nausea",
+        "heartburn"
+      ],
+      "abdomen": "soft",
+      "liver": "normal",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P023",
+    "visit_date": "2025-08-31",
+    "visit_time": "16:30",
+    "age": 39,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "fever",
+        "details": "fever reported for 4 days",
+        "priority": 1
+      },
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 12 days",
+        "priority": 2
+      },
+      {
+        "symptom": "headache",
+        "details": "headache reported for 8 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs",
+        "none"
+      ],
+      "family_history": "Alzheimer\u2019s disease",
+      "current_medications": [
+        "lisinopril"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [],
+      "hospitalizations": [
+        "2016 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "asthenic",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.3,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "cyanotic",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 13,
+      "auxiliary_muscles": false,
+      "cough": "none",
+      "sputum": "clear",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "133/74",
+      "pulse": "64 regular",
+      "heart_rate": 87,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "heartburn"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P024",
+    "visit_date": "2025-09-06",
+    "visit_time": "14:30",
+    "age": 51,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "abdominal pain",
+        "details": "abdominal pain reported for 2 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "cancer",
+      "current_medications": [
+        "levothyroxine"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "asthma",
+        "chronic kidney disease",
+        "coronary artery disease"
+      ],
+      "hospitalizations": [
+        "2015 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "hypersthenic",
+      "emotional_status": "normal",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.2,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "rash",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 13,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "yellowish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "126/91",
+      "pulse": "93 regular",
+      "heart_rate": 67,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P025",
+    "visit_date": "2025-09-15",
+    "visit_time": "16:15",
+    "age": 83,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 9 days",
+        "priority": 1
+      },
+      {
+        "symptom": "headache",
+        "details": "headache reported for 13 days",
+        "priority": 2
+      },
+      {
+        "symptom": "cough",
+        "details": "cough reported for 9 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "aspirin"
+      ],
+      "family_history": "stroke",
+      "current_medications": [
+        "amlodipine",
+        "insulin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "hypothyroidism",
+        "chronic kidney disease"
+      ],
+      "hospitalizations": [
+        "2014 - C-section"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "drowsy",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "hypersthenic",
+      "emotional_status": "apathetic",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.8,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 20,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "greenish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "115/72",
+      "pulse": "95 regular",
+      "heart_rate": 87,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [],
+      "abdomen": "tender",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P026",
+    "visit_date": "2025-08-31",
+    "visit_time": "16:30",
+    "age": 72,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "vomiting",
+        "details": "vomiting reported for 12 days",
+        "priority": 1
+      },
+      {
+        "symptom": "memory loss",
+        "details": "memory loss reported for 4 days",
+        "priority": 2
+      },
+      {
+        "symptom": "abdominal pain",
+        "details": "abdominal pain reported for 12 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs",
+        "none"
+      ],
+      "family_history": "hypertension",
+      "current_medications": [
+        "lisinopril"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "hypothyroidism"
+      ],
+      "hospitalizations": [
+        "2017 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "drowsy",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.5,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "cyanotic",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 18,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "none",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "116/97",
+      "pulse": "74 regular",
+      "heart_rate": 94,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "heartburn"
+      ],
+      "abdomen": "tense",
+      "liver": "enlarged",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P027",
+    "visit_date": "2025-08-28",
+    "visit_time": "11:15",
+    "age": 29,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "nausea",
+        "details": "nausea reported for 4 days",
+        "priority": 1
+      },
+      {
+        "symptom": "dizziness",
+        "details": "dizziness reported for 4 days",
+        "priority": 2
+      },
+      {
+        "symptom": "fever",
+        "details": "fever reported for 10 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "penicillin",
+        "sulfa drugs"
+      ],
+      "family_history": "Alzheimer\u2019s disease",
+      "current_medications": [
+        "omeprazole",
+        "lisinopril",
+        "levothyroxine"
+      ],
+      "past_infections": [
+        "influenza"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "migraine",
+        "type 2 diabetes"
+      ],
+      "hospitalizations": [
+        "2019 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "asthenic",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.0,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "pale",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 17,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "yellowish",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "118/95",
+      "pulse": "90 regular",
+      "heart_rate": 62,
+      "edema": "ankle edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "vomiting"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P028",
+    "visit_date": "2025-09-09",
+    "visit_time": "17:30",
+    "age": 79,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "memory loss",
+        "details": "memory loss reported for 6 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs"
+      ],
+      "family_history": "diabetes",
+      "current_medications": [],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "hypothyroidism",
+        "migraine"
+      ],
+      "hospitalizations": [
+        "2019 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "apathetic",
+      "sleep": "disturbed",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.9,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "cyanotic",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 24,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "clear",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "150/80",
+      "pulse": "84 regular",
+      "heart_rate": 84,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "constipation",
+        "heartburn"
+      ],
+      "abdomen": "soft",
+      "liver": "normal",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P029",
+    "visit_date": "2025-09-12",
+    "visit_time": "8:45",
+    "age": 30,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "cough",
+        "details": "cough reported for 8 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "aspirin",
+        "penicillin"
+      ],
+      "family_history": "stroke",
+      "current_medications": [
+        "insulin"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "migraine",
+        "hypertension",
+        "rheumatoid arthritis"
+      ],
+      "hospitalizations": [
+        "2006 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "bedridden",
+      "constitution": "asthenic",
+      "emotional_status": "apathetic",
+      "sleep": "normal",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.9,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "cyanotic",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 28,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "yellowish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "108/80",
+      "pulse": "86 regular",
+      "heart_rate": 90,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P030",
+    "visit_date": "2025-09-05",
+    "visit_time": "11:15",
+    "age": 82,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "dizziness",
+        "details": "dizziness reported for 11 days",
+        "priority": 1
+      },
+      {
+        "symptom": "vomiting",
+        "details": "vomiting reported for 13 days",
+        "priority": 2
+      },
+      {
+        "symptom": "cough",
+        "details": "cough reported for 1 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs",
+        "aspirin"
+      ],
+      "family_history": "hypertension",
+      "current_medications": [
+        "levothyroxine",
+        "amlodipine",
+        "insulin"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "type 2 diabetes",
+        "COPD"
+      ],
+      "hospitalizations": [
+        "2006 - appendectomy"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.0,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "rash",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 15,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "clear",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "127/92",
+      "pulse": "82 regular",
+      "heart_rate": 63,
+      "edema": "ankle edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P031",
+    "visit_date": "2025-09-11",
+    "visit_time": "8:45",
+    "age": 48,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 4 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "aspirin",
+        "none"
+      ],
+      "family_history": "cancer",
+      "current_medications": [
+        "omeprazole"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "asthma",
+        "COPD"
+      ],
+      "hospitalizations": [
+        "2013 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "drowsy",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "hypersthenic",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.8,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 21,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "clear",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "122/90",
+      "pulse": "73 regular",
+      "heart_rate": 86,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "heartburn",
+        "vomiting"
+      ],
+      "abdomen": "tender",
+      "liver": "enlarged",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P032",
+    "visit_date": "2025-09-11",
+    "visit_time": "13:15",
+    "age": 63,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "cough",
+        "details": "cough reported for 12 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "none",
+      "current_medications": [
+        "levothyroxine",
+        "lisinopril",
+        "insulin"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "chronic kidney disease",
+        "migraine",
+        "COPD"
+      ],
+      "hospitalizations": [
+        "2011 - appendectomy"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "apathetic",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.9,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "pale",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 18,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "none",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "157/61",
+      "pulse": "71 regular",
+      "heart_rate": 90,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "vomiting",
+        "constipation"
+      ],
+      "abdomen": "soft",
+      "liver": "enlarged",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P033",
+    "visit_date": "2025-08-31",
+    "visit_time": "8:30",
+    "age": 23,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "fatigue",
+        "details": "fatigue reported for 11 days",
+        "priority": 1
+      },
+      {
+        "symptom": "joint pain",
+        "details": "joint pain reported for 10 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "aspirin",
+        "penicillin"
+      ],
+      "family_history": "stroke",
+      "current_medications": [
+        "amlodipine",
+        "lisinopril"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "asthma",
+        "rheumatoid arthritis"
+      ],
+      "hospitalizations": [
+        "2015 - bypass surgery"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.4,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 28,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "yellowish",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "100/69",
+      "pulse": "88 regular",
+      "heart_rate": 77,
+      "edema": "ankle edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [],
+      "abdomen": "tender",
+      "liver": "enlarged",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P034",
+    "visit_date": "2025-09-13",
+    "visit_time": "11:00",
+    "age": 52,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "dizziness",
+        "details": "dizziness reported for 4 days",
+        "priority": 1
+      },
+      {
+        "symptom": "cough",
+        "details": "cough reported for 13 days",
+        "priority": 2
+      },
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 14 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "stroke",
+      "current_medications": [
+        "amlodipine",
+        "atorvastatin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "asthma"
+      ],
+      "hospitalizations": [
+        "2003 - appendectomy"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "preserved",
+      "constitution": "asthenic",
+      "emotional_status": "apathetic",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.1,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "pale",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 13,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "yellowish",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "106/83",
+      "pulse": "81 regular",
+      "heart_rate": 82,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "diarrhea"
+      ],
+      "abdomen": "tense",
+      "liver": "normal",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P035",
+    "visit_date": "2025-09-16",
+    "visit_time": "16:30",
+    "age": 82,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "chest pain",
+        "details": "chest pain reported for 9 days",
+        "priority": 1
+      },
+      {
+        "symptom": "nausea",
+        "details": "nausea reported for 8 days",
+        "priority": 2
+      },
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 7 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs"
+      ],
+      "family_history": "hypertension",
+      "current_medications": [],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "rheumatoid arthritis",
+        "hypothyroidism",
+        "migraine"
+      ],
+      "hospitalizations": [
+        "2015 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "bedridden",
+      "constitution": "asthenic",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.4,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 23,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "none",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "123/84",
+      "pulse": "93 regular",
+      "heart_rate": 78,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [],
+      "abdomen": "tender",
+      "liver": "tender",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P036",
+    "visit_date": "2025-09-01",
+    "visit_time": "15:15",
+    "age": 53,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "nausea",
+        "details": "nausea reported for 8 days",
+        "priority": 1
+      },
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 14 days",
+        "priority": 2
+      },
+      {
+        "symptom": "abdominal pain",
+        "details": "abdominal pain reported for 8 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "Alzheimer\u2019s disease",
+      "current_medications": [
+        "metformin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "migraine"
+      ],
+      "hospitalizations": [
+        "2006 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "drowsy",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "asthenic",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.3,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 14,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "none",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "109/99",
+      "pulse": "85 regular",
+      "heart_rate": 94,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "tender",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P037",
+    "visit_date": "2025-09-16",
+    "visit_time": "13:45",
+    "age": 85,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "back pain",
+        "details": "back pain reported for 13 days",
+        "priority": 1
+      },
+      {
+        "symptom": "memory loss",
+        "details": "memory loss reported for 6 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "none"
+      ],
+      "family_history": "cancer",
+      "current_medications": [
+        "amlodipine",
+        "omeprazole",
+        "metformin"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "asthma",
+        "hypothyroidism",
+        "migraine"
+      ],
+      "hospitalizations": [
+        "2010 - C-section"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "drowsy",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "hypersthenic",
+      "emotional_status": "normal",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.3,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "rash",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 27,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "greenish",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "108/96",
+      "pulse": "97 regular",
+      "heart_rate": 61,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "diarrhea",
+        "constipation"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P038",
+    "visit_date": "2025-09-16",
+    "visit_time": "14:00",
+    "age": 46,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "vomiting",
+        "details": "vomiting reported for 2 days",
+        "priority": 1
+      },
+      {
+        "symptom": "dizziness",
+        "details": "dizziness reported for 9 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "hypertension",
+      "current_medications": [
+        "omeprazole",
+        "amlodipine"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "chronic kidney disease"
+      ],
+      "hospitalizations": [
+        "2022 - none"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "drowsy",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "bedridden",
+      "constitution": "normal",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.4,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 13,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "yellowish",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "156/79",
+      "pulse": "85 regular",
+      "heart_rate": 60,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "constipation",
+        "diarrhea"
+      ],
+      "abdomen": "tender",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P039",
+    "visit_date": "2025-09-16",
+    "visit_time": "13:30",
+    "age": 76,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "chest pain",
+        "details": "chest pain reported for 13 days",
+        "priority": 1
+      },
+      {
+        "symptom": "fatigue",
+        "details": "fatigue reported for 1 days",
+        "priority": 2
+      },
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 12 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "none",
+      "current_medications": [],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "no",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "rheumatoid arthritis"
+      ],
+      "hospitalizations": [
+        "2016 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.1,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "pale",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 22,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "none",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "146/81",
+      "pulse": "76 regular",
+      "heart_rate": 94,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [],
+      "abdomen": "tender",
+      "liver": "tender",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P040",
+    "visit_date": "2025-08-30",
+    "visit_time": "16:00",
+    "age": 59,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "fatigue",
+        "details": "fatigue reported for 5 days",
+        "priority": 1
+      },
+      {
+        "symptom": "fever",
+        "details": "fever reported for 2 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "stroke",
+      "current_medications": [
+        "insulin",
+        "atorvastatin",
+        "aspirin"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "iron deficiency anemia",
+        "chronic kidney disease",
+        "coronary artery disease"
+      ],
+      "hospitalizations": [
+        "2015 - bypass surgery"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "limited",
+      "constitution": "asthenic",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.9,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 27,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "yellowish",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "141/79",
+      "pulse": "60 regular",
+      "heart_rate": 81,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "nausea"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P041",
+    "visit_date": "2025-09-23",
+    "visit_time": "14:45",
+    "age": 28,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "headache",
+        "details": "headache reported for 9 days",
+        "priority": 1
+      },
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 1 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "sulfa drugs",
+        "aspirin"
+      ],
+      "family_history": "hypertension",
+      "current_medications": [
+        "levothyroxine",
+        "omeprazole"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "migraine",
+        "type 2 diabetes"
+      ],
+      "hospitalizations": [
+        "2016 - appendectomy"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "asthenic",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 38.0,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "pale",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 26,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "none",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "115/100",
+      "pulse": "95 regular",
+      "heart_rate": 97,
+      "edema": "none",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "vomiting"
+      ],
+      "abdomen": "tense",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P042",
+    "visit_date": "2025-09-06",
+    "visit_time": "12:15",
+    "age": 77,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "sore throat",
+        "details": "sore throat reported for 2 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [],
+      "family_history": "hypertension",
+      "current_medications": [
+        "atorvastatin",
+        "metformin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "chronic kidney disease"
+      ],
+      "hospitalizations": [
+        "2008 - appendectomy"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "clear",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.4,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 28,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "clear",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "158/98",
+      "pulse": "83 regular",
+      "heart_rate": 63,
+      "edema": "ankle edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [],
+      "abdomen": "soft",
+      "liver": "tender",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P043",
+    "visit_date": "2025-09-21",
+    "visit_time": "13:15",
+    "age": 44,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "fatigue",
+        "details": "fatigue reported for 5 days",
+        "priority": 1
+      },
+      {
+        "symptom": "fever",
+        "details": "fever reported for 6 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "penicillin"
+      ],
+      "family_history": "Alzheimer\u2019s disease",
+      "current_medications": [
+        "aspirin"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "coronary artery disease",
+        "rheumatoid arthritis"
+      ],
+      "hospitalizations": [
+        "2007 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "apathetic",
+      "sleep": "normal",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 39.4,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "cyanotic",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 26,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "none",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "101/70",
+      "pulse": "99 regular",
+      "heart_rate": 81,
+      "edema": "ankle edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "nausea",
+        "heartburn"
+      ],
+      "abdomen": "tense",
+      "liver": "enlarged",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P044",
+    "visit_date": "2025-09-25",
+    "visit_time": "15:15",
+    "age": 40,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "nausea",
+        "details": "nausea reported for 13 days",
+        "priority": 1
+      },
+      {
+        "symptom": "joint pain",
+        "details": "joint pain reported for 13 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "penicillin"
+      ],
+      "family_history": "heart disease",
+      "current_medications": [],
+      "past_infections": [
+        "influenza"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "rheumatoid arthritis",
+        "COPD"
+      ],
+      "hospitalizations": [
+        "2000 - C-section"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "impaired",
+      "activity": "preserved",
+      "constitution": "normal",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.1,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "cyanotic",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 25,
+      "auxiliary_muscles": true,
+      "cough": "none",
+      "sputum": "clear",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "145/90",
+      "pulse": "67 regular",
+      "heart_rate": 62,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [],
+      "abdomen": "tense",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P045",
+    "visit_date": "2025-09-19",
+    "visit_time": "11:15",
+    "age": 66,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "dizziness",
+        "details": "dizziness reported for 3 days",
+        "priority": 1
+      },
+      {
+        "symptom": "vomiting",
+        "details": "vomiting reported for 6 days",
+        "priority": 2
+      },
+      {
+        "symptom": "joint pain",
+        "details": "joint pain reported for 3 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "aspirin",
+        "penicillin"
+      ],
+      "family_history": "stroke",
+      "current_medications": [
+        "levothyroxine",
+        "amlodipine",
+        "insulin"
+      ],
+      "past_infections": [
+        "influenza"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "iron deficiency anemia"
+      ],
+      "hospitalizations": [
+        "2013 - none"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "confused",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "hypersthenic",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.1,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "pale",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "abdominal",
+      "respiratory_rate": 26,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "none",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "160/63",
+      "pulse": "83 regular",
+      "heart_rate": 76,
+      "edema": "ankle edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "dry",
+      "symptoms": [
+        "constipation"
+      ],
+      "abdomen": "tense",
+      "liver": "enlarged",
+      "stool": "normal"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P046",
+    "visit_date": "2025-09-17",
+    "visit_time": "9:45",
+    "age": 48,
+    "sex": "F",
+    "complaints": [
+      {
+        "symptom": "back pain",
+        "details": "back pain reported for 1 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "none"
+      ],
+      "family_history": "Alzheimer\u2019s disease",
+      "current_medications": [
+        "levothyroxine"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "rheumatoid arthritis",
+        "migraine"
+      ],
+      "hospitalizations": [
+        "2013 - none"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "increased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.3,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "thoracic",
+      "respiratory_rate": 12,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "none",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "105/92",
+      "pulse": "65 regular",
+      "heart_rate": 99,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "vomiting"
+      ],
+      "abdomen": "tense",
+      "liver": "tender",
+      "stool": "melena"
+    },
+    "urinary_system": {
+      "urination": "normal",
+      "incontinence": "yes",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P047",
+    "visit_date": "2025-09-06",
+    "visit_time": "15:15",
+    "age": 62,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 9 days",
+        "priority": 1
+      },
+      {
+        "symptom": "headache",
+        "details": "headache reported for 10 days",
+        "priority": 2
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "aspirin"
+      ],
+      "family_history": "none",
+      "current_medications": [
+        "amlodipine"
+      ],
+      "past_infections": [
+        "chickenpox"
+      ],
+      "tuberculosis": "yes",
+      "std": "yes",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "no",
+      "chronic_conditions": [
+        "COPD"
+      ],
+      "hospitalizations": [
+        "2020 - appendectomy"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "serious",
+      "consciousness": "clear",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "bedridden",
+      "constitution": "hypersthenic",
+      "emotional_status": "anxious",
+      "sleep": "normal",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.0,
+      "mucosa": "moist",
+      "pharynx": "hyperemic",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 25,
+      "auxiliary_muscles": false,
+      "cough": "productive",
+      "sputum": "clear",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "109/98",
+      "pulse": "89 regular",
+      "heart_rate": 75,
+      "edema": "none",
+      "heart_sounds": "normal",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "diarrhea",
+        "nausea"
+      ],
+      "abdomen": "soft",
+      "liver": "normal",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P048",
+    "visit_date": "2025-09-18",
+    "visit_time": "13:00",
+    "age": 31,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "fever",
+        "details": "fever reported for 1 days",
+        "priority": 1
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "none"
+      ],
+      "family_history": "diabetes",
+      "current_medications": [],
+      "past_infections": [
+        "influenza"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "yes",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "rheumatoid arthritis",
+        "iron deficiency anemia"
+      ],
+      "hospitalizations": [
+        "2021 - appendectomy"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "clear",
+      "speech": "normal",
+      "hearing": "reduced",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "normal",
+      "emotional_status": "anxious",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 36.3,
+      "mucosa": "dry",
+      "pharynx": "normal",
+      "skin": "normal",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 26,
+      "auxiliary_muscles": false,
+      "cough": "dry",
+      "sputum": "clear",
+      "auscultation": "reduced breath sounds with crackles"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "106/85",
+      "pulse": "64 regular",
+      "heart_rate": 64,
+      "edema": "ankle edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "vomiting",
+        "heartburn"
+      ],
+      "abdomen": "soft",
+      "liver": "enlarged",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "frequent",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P049",
+    "visit_date": "2025-09-03",
+    "visit_time": "8:15",
+    "age": 80,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 10 days",
+        "priority": 1
+      },
+      {
+        "symptom": "headache",
+        "details": "headache reported for 9 days",
+        "priority": 2
+      },
+      {
+        "symptom": "back pain",
+        "details": "back pain reported for 10 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "none",
+        "penicillin"
+      ],
+      "family_history": "stroke",
+      "current_medications": [
+        "aspirin",
+        "lisinopril"
+      ],
+      "past_infections": [
+        "hepatitis A"
+      ],
+      "tuberculosis": "yes",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "positive",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [
+        "COPD",
+        "type 2 diabetes"
+      ],
+      "hospitalizations": [
+        "2005 - bypass surgery"
+      ],
+      "blood_transfusion": "no"
+    },
+    "status_praesens": {
+      "general_condition": "satisfactory",
+      "consciousness": "drowsy",
+      "speech": "slurred",
+      "hearing": "normal",
+      "vision": "normal",
+      "activity": "limited",
+      "constitution": "asthenic",
+      "emotional_status": "normal",
+      "sleep": "disturbed",
+      "appetite": "decreased"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.4,
+      "mucosa": "dry",
+      "pharynx": "hyperemic",
+      "skin": "cyanotic",
+      "lymph_nodes": "enlarged, tender"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 17,
+      "auxiliary_muscles": true,
+      "cough": "dry",
+      "sputum": "clear",
+      "auscultation": "vesicular breath sounds"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "155/79",
+      "pulse": "82 regular",
+      "heart_rate": 85,
+      "edema": "generalized edema",
+      "heart_sounds": "normal",
+      "heart_murmurs": "present"
+    },
+    "digestive_system": {
+      "tongue": "moist",
+      "symptoms": [
+        "vomiting",
+        "constipation"
+      ],
+      "abdomen": "tense",
+      "liver": "enlarged",
+      "stool": "diarrhea"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "no",
+      "percussion": "tender"
+    },
+    "status_localis": "No focal pathological findings."
+  },
+  {
+    "patient_id": "P050",
+    "visit_date": "2025-09-06",
+    "visit_time": "10:30",
+    "age": 26,
+    "sex": "M",
+    "complaints": [
+      {
+        "symptom": "shortness of breath",
+        "details": "shortness of breath reported for 9 days",
+        "priority": 1
+      },
+      {
+        "symptom": "nausea",
+        "details": "nausea reported for 8 days",
+        "priority": 2
+      },
+      {
+        "symptom": "fatigue",
+        "details": "fatigue reported for 9 days",
+        "priority": 3
+      }
+    ],
+    "history_of_present_illness": "Patient reports gradual onset of symptoms with variable intensity.",
+    "medical_history": {
+      "allergies": [
+        "none",
+        "sulfa drugs"
+      ],
+      "family_history": "hypertension",
+      "current_medications": [
+        "omeprazole",
+        "insulin"
+      ],
+      "past_infections": [
+        "none"
+      ],
+      "tuberculosis": "no",
+      "std": "no",
+      "hepatitis": "no",
+      "hiv": "negative",
+      "infectious_contacts": "yes",
+      "chronic_conditions": [],
+      "hospitalizations": [
+        "2012 - bypass surgery"
+      ],
+      "blood_transfusion": "yes"
+    },
+    "status_praesens": {
+      "general_condition": "moderate",
+      "consciousness": "confused",
+      "speech": "slurred",
+      "hearing": "reduced",
+      "vision": "impaired",
+      "activity": "bedridden",
+      "constitution": "normal",
+      "emotional_status": "apathetic",
+      "sleep": "normal",
+      "appetite": "normal"
+    },
+    "skin_and_mucosa": {
+      "temperature": 37.4,
+      "mucosa": "moist",
+      "pharynx": "normal",
+      "skin": "pale",
+      "lymph_nodes": "not enlarged"
+    },
+    "respiratory_system": {
+      "breathing_type": "mixed",
+      "respiratory_rate": 22,
+      "auxiliary_muscles": true,
+      "cough": "productive",
+      "sputum": "greenish",
+      "auscultation": "wheezing"
+    },
+    "cardiovascular_system": {
+      "blood_pressure": "139/93",
+      "pulse": "60 regular",
+      "heart_rate": 64,
+      "edema": "generalized edema",
+      "heart_sounds": "muffled",
+      "heart_murmurs": "absent"
+    },
+    "digestive_system": {
+      "tongue": "coated",
+      "symptoms": [
+        "vomiting",
+        "diarrhea"
+      ],
+      "abdomen": "soft",
+      "liver": "enlarged",
+      "stool": "constipation"
+    },
+    "urinary_system": {
+      "urination": "dysuria",
+      "incontinence": "no",
+      "percussion": "non-tender"
+    },
+    "status_localis": "No focal pathological findings."
+  }
+]

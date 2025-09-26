@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VisitSummary",
+  "type": "object",
+  "properties": {
+    "patient_id": { "type": "string" },
+    "visit_date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "visit_time": { "type": "string", "pattern": "^\\d{2}:\\d{2}$" },
+    "age": { "type": "integer", "minimum": 0, "maximum": 120 },
+    "sex": { "type": "string", "enum": ["M", "F", "X"] },
+    "complaints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "symptom": { "type": "string" },
+          "details": { "type": "string" },
+          "priority": { "type": "integer", "minimum": 1 }
+        },
+        "required": ["symptom", "details", "priority"],
+        "additionalProperties": false
+      }
+    },
+    "history_of_present_illness": { "type": "string" },
+    "medical_history": {
+      "type": "object",
+      "properties": {
+        "allergies": { "type": "array", "items": { "type": "string" } },
+        "family_history": { "type": "string" },
+        "current_medications": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "past_infections": { "type": "array", "items": { "type": "string" } },
+        "tuberculosis": { "type": "string", "enum": ["yes", "no", "unknown"] },
+        "std": { "type": "string", "enum": ["yes", "no", "unknown"] },
+        "hepatitis": { "type": "string", "enum": ["yes", "no", "unknown"] },
+        "hiv": {
+          "type": "string",
+          "enum": ["positive", "negative", "unknown"]
+        },
+        "infectious_contacts": {
+          "type": "string",
+          "enum": ["yes", "no", "unknown"]
+        },
+        "chronic_conditions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "hospitalizations": { "type": "array", "items": { "type": "string" } },
+        "blood_transfusion": {
+          "type": "string",
+          "enum": ["yes", "no", "unknown"]
+        }
+      },
+      "additionalProperties": false
+    },
+    "status_praesens": {
+      "type": "object",
+      "properties": {
+        "general_condition": { "type": "string" },
+        "consciousness": { "type": "string" },
+        "speech": { "type": "string" },
+        "hearing": { "type": "string" },
+        "vision": { "type": "string" },
+        "activity": { "type": "string" },
+        "constitution": { "type": "string" },
+        "emotional_status": { "type": "string" },
+        "sleep": { "type": "string" },
+        "appetite": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "skin_and_mucosa": {
+      "type": "object",
+      "properties": {
+        "temperature": { "type": "number", "minimum": 30, "maximum": 45 },
+        "mucosa": { "type": "string" },
+        "pharynx": { "type": "string" },
+        "skin": { "type": "string" },
+        "lymph_nodes": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "respiratory_system": {
+      "type": "object",
+      "properties": {
+        "breathing_type": { "type": "string" },
+        "respiratory_rate": { "type": "integer", "minimum": 0, "maximum": 80 },
+        "auxiliary_muscles": { "type": "boolean" },
+        "cough": { "type": "string" },
+        "sputum": { "type": "string" },
+        "auscultation": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "cardiovascular_system": {
+      "type": "object",
+      "properties": {
+        "blood_pressure": {
+          "type": "string",
+          "pattern": "^\\d{2,3}/\\d{2,3}$"
+        },
+        "pulse": { "type": "string" },
+        "heart_rate": { "type": "integer", "minimum": 0, "maximum": 250 },
+        "edema": { "type": "string" },
+        "heart_sounds": { "type": "string" },
+        "heart_murmurs": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "digestive_system": {
+      "type": "object",
+      "properties": {
+        "tongue": { "type": "string" },
+        "symptoms": { "type": "array", "items": { "type": "string" } },
+        "abdomen": { "type": "string" },
+        "liver": { "type": "string" },
+        "stool": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "urinary_system": {
+      "type": "object",
+      "properties": {
+        "urination": { "type": "string" },
+        "incontinence": { "type": "string" },
+        "percussion": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "status_localis": { "type": "string" }
+  },
+  "required": [
+    "patient_id",
+    "visit_date",
+    "visit_time",
+    "age",
+    "sex",
+    "complaints"
+  ],
+  "additionalProperties": false
+}
