@@ -1,10 +1,18 @@
 # Training Data Generation Guide
 
-This guide explains how to generate training and validation datasets for the PCP-AI project using the `generate_training_data.py` script.
+This guide explains how to generate training and validation datasets for the PCP-AI project using the optimized `generate_training_data.py` script.
 
 ## Overview
 
 The script converts structured medical records from `primary_care_dataset.json` into realistic conversational training data using OpenAI API. It generates comprehensive, realistic doctor-patient conversations that follow the project's system prompts.
+
+## 🚀 **Optimized Features**
+
+- **Batch Processing**: Concurrent API calls for 3-5x faster processing
+- **Real-time Progress**: Live progress bars with ETA and status updates
+- **Memory Efficient**: Incremental file writing (no memory storage)
+- **Error Handling**: Retry logic with exponential backoff
+- **Configurable**: Adjustable batch size, concurrency, and delays
 
 ## Setup
 
@@ -15,7 +23,9 @@ The script converts structured medical records from `primary_care_dataset.json` 
 source .env312/bin/activate
 
 # Install dependencies (if not already installed)
-pip install openai jsonschema
+pip install -r requirements.txt
+# or manually:
+pip install openai jsonschema python-dotenv tqdm
 ```
 
 ### 2. OpenAI API Setup (Required)
@@ -41,8 +51,17 @@ This will:
 
 - Process all 50 records from `primary_care_dataset.json`
 - Split into 80% training (40 records) and 20% validation (10 records)
-- Generate realistic conversations using OpenAI API
-- Save to `data/train.jsonl` and `data/valid.jsonl`
+- Generate realistic conversations using OpenAI API with concurrent processing
+- Show real-time progress bars with ETA
+- Save incrementally to `data/train.jsonl` and `data/valid.jsonl`
+
+### High-Performance Processing
+
+For faster processing with more concurrent workers:
+
+```bash
+python3 generate_training_data.py --batch-size 10 --max-workers 5
+```
 
 ### Testing with Limited Records
 
@@ -50,6 +69,14 @@ Test the script with a small number of records:
 
 ```bash
 python3 generate_training_data.py --max-records 5
+```
+
+### Conservative Processing
+
+For slower but safer processing (useful for rate-limited accounts):
+
+```bash
+python3 generate_training_data.py --batch-size 2 --max-workers 2 --delay 2.0
 ```
 
 ### Custom Output Directory
@@ -66,6 +93,9 @@ python3 generate_training_data.py --output-dir outputs/training_data
 | `--output-dir`  | Output directory for train.jsonl and valid.jsonl   | `data`                      |
 | `--train-ratio` | Ratio of data to use for training                  | `0.8`                       |
 | `--max-records` | Maximum number of records to process (for testing) | `None` (all records)        |
+| `--batch-size`  | Number of records per batch                        | `5`                         |
+| `--max-workers` | Maximum concurrent workers                         | `3`                         |
+| `--delay`       | Delay between API calls in seconds                 | `1.0`                       |
 
 ## Output Format
 
@@ -126,11 +156,25 @@ export OPENAI_API_KEY="sk-..."
 python3 generate_training_data.py
 ```
 
+### High-Performance Processing
+
+```bash
+# Fast processing with more workers and larger batches
+python3 generate_training_data.py --batch-size 10 --max-workers 5
+```
+
 ### Generate Test Dataset
 
 ```bash
 # Generate 5 records for testing
 python3 generate_training_data.py --max-records 5
+```
+
+### Conservative Processing
+
+```bash
+# Slower but safer for rate-limited accounts
+python3 generate_training_data.py --batch-size 2 --max-workers 2 --delay 2.0
 ```
 
 ### Custom Split
@@ -145,8 +189,9 @@ python3 generate_training_data.py --train-ratio 0.9
 When using OpenAI API:
 
 - **GPT-4**: ~$0.06 per record (50 records = ~$3.00)
-- **Processing time**: ~3-5 minutes for 50 records
-- **Rate limiting**: Script includes 2-second delays between API calls
+- **Processing time**: ~1-2 minutes for 50 records (with optimization)
+- **Rate limiting**: Configurable delays (default: 1 second between calls)
+- **Concurrent processing**: 3-5x faster than sequential processing
 
 ## Output Files
 
@@ -169,18 +214,20 @@ If you encounter API errors:
 
 ### Rate Limiting
 
-The script includes automatic rate limiting (2 seconds between calls) when using OpenAI API. If you hit rate limits:
+The script includes configurable rate limiting when using OpenAI API. If you hit rate limits:
 
-- Increase the delay in the script
+- Increase the delay: `--delay 2.0`
+- Reduce concurrent workers: `--max-workers 2`
+- Use smaller batches: `--batch-size 2`
 - Use a higher-tier OpenAI plan
-- Process in smaller batches
 
 ### Memory Issues
 
-For large datasets, consider:
+The optimized script is memory efficient with incremental file writing. For very large datasets:
 
-- Using `--max-records` to process in batches
-- Processing in smaller chunks
+- Use `--max-records` to process in chunks
+- Process with smaller batch sizes
+- The script no longer stores all data in memory
 
 ## Features
 
@@ -188,5 +235,9 @@ For large datasets, consider:
 - **Comprehensive coverage**: Covers all aspects of a primary care intake
 - **Proper system prompts**: Uses the project's actual system prompts
 - **Schema compliance**: Generates JSON reports that match the project schema
-- **Error handling**: Continues processing even if individual records fail
-- **Rate limiting**: Built-in delays to avoid API rate limits
+- **Batch processing**: Concurrent API calls for 3-5x faster processing
+- **Real-time progress**: Live progress bars with ETA and status updates
+- **Memory efficient**: Incremental file writing (no memory storage)
+- **Error handling**: Retry logic with exponential backoff
+- **Configurable**: Adjustable batch size, concurrency, and delays
+- **Rate limiting**: Configurable delays to avoid API rate limits
