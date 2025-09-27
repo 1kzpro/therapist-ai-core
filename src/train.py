@@ -5,6 +5,7 @@ from datasets import load_dataset
 from transformers import AutoTokenizer, AutoModelForCausalLM, DataCollatorForLanguageModeling, TrainingArguments
 from trl import SFTTrainer
 from peft import LoraConfig
+import gc
 
 def seed_all(sd=7):
     random.seed(sd); np.random.seed(sd); torch.manual_seed(sd)
@@ -13,7 +14,7 @@ def seed_all(sd=7):
 
 def build_argparser():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--base_model", type=str, default="meta-llama/Llama-3.1-8B-Instruct")
+    ap.add_argument("--base_model", type=str, default="Qwen/Qwen2.5-1.5B-Instruct")
     ap.add_argument("--train_file", type=str, default="data/train.jsonl")
     ap.add_argument("--valid_file", type=str, default="data/valid.jsonl")
     ap.add_argument("--output_dir", type=str, default="outputs/lora")
@@ -32,6 +33,11 @@ def format_example(ex):
 def main():
     args = build_argparser().parse_args()
     seed_all()
+    
+    # Clear cache before loading
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+    gc.collect()
 
     ds = load_dataset("json", data_files={"train": args.train_file, "validation": args.valid_file})
     ds = ds.map(format_example, remove_columns=ds["train"].column_names)
@@ -40,25 +46,32 @@ def main():
     tokenizer.pad_token = tokenizer.eos_token
 
     def chat_collate(batch):
-        # Convert messages → tokens and mask labels for all but final assistant turn
+        # Handle both raw messages and preprocessed data from SFTTrainer
         input_ids, attention_mask, labels = [], [], []
         for ex in batch:
-            messages = ex["messages"]
-            assert messages[-1]["role"] == "assistant"
-            # full conversation with final gold
-            full_txt = tokenizer.apply_chat_template(messages, add_generation_prompt=False, tokenize=False)
-            enc = tokenizer(full_txt, truncation=True, max_length=args.max_seq_len)
-            # prompt without the last assistant (for masking prefix)
-            prompt_txt = tokenizer.apply_chat_template(messages[:-1], add_generation_prompt=True, tokenize=False)
-            prompt_ids = tokenizer(prompt_txt, truncation=True, max_length=args.max_seq_len)["input_ids"]
+            if "messages" in ex:
+                # Raw messages format
+                messages = ex["messages"]
+                assert messages[-1]["role"] == "assistant"
+                # full conversation with final gold
+                full_txt = tokenizer.apply_chat_template(messages, add_generation_prompt=False, tokenize=False)
+                enc = tokenizer(full_txt, truncation=True, max_length=args.max_seq_len)
+                # prompt without the last assistant (for masking prefix)
+                prompt_txt = tokenizer.apply_chat_template(messages[:-1], add_generation_prompt=True, tokenize=False)
+                prompt_ids = tokenizer(prompt_txt, truncation=True, max_length=args.max_seq_len)["input_ids"]
 
-            ids = enc["input_ids"]; attn = enc["attention_mask"]
-            lab = [-100]*len(ids)
-            start = len(prompt_ids)
-            for i in range(start, len(ids)):
-                lab[i] = ids[i]
+                ids = enc["input_ids"]; attn = enc["attention_mask"]
+                lab = [-100]*len(ids)
+                start = len(prompt_ids)
+                for i in range(start, len(ids)):
+                    lab[i] = ids[i]
 
-            input_ids.append(ids); attention_mask.append(attn); labels.append(lab)
+                input_ids.append(ids); attention_mask.append(attn); labels.append(lab)
+            else:
+                # Preprocessed format from SFTTrainer
+                input_ids.append(ex["input_ids"])
+                attention_mask.append(ex["attention_mask"])
+                labels.append(ex["labels"])
 
         # pad
         def pad(seq_list, pad_val):
@@ -87,11 +100,24 @@ def main():
         task_type="CAUSAL_LM"
     )
 
-    model = AutoModelForCausalLM.from_pretrained(
-        args.base_model,
-        torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
-        device_map="auto"
-    )
+    try:
+        model = AutoModelForCausalLM.from_pretrained(
+            args.base_model,
+            torch_dtype=torch.bfloat16 if torch.cuda.is_available() else torch.float32,
+            device_map="auto" if torch.cuda.is_available() else None,
+            trust_remote_code=True,
+            low_cpu_mem_usage=True
+        )
+    except Exception as e:
+        print(f"Error loading model with device_map='auto': {e}")
+        print("Falling back to CPU loading...")
+        model = AutoModelForCausalLM.from_pretrained(
+            args.base_model,
+            torch_dtype=torch.float32,
+            device_map=None,
+            trust_remote_code=True,
+            low_cpu_mem_usage=True
+        )
 
     training_args = TrainingArguments(
         output_dir=args.output_dir,
@@ -99,7 +125,7 @@ def main():
         per_device_eval_batch_size=1,
         gradient_accumulation_steps=args.grad_accum,
         logging_steps=10,
-        evaluation_strategy="steps",
+        eval_strategy="steps",
         eval_steps=200,
         save_steps=200,
         save_total_limit=2,
@@ -115,14 +141,11 @@ def main():
 
     trainer = SFTTrainer(
         model=model,
-        tokenizer=tokenizer,
         train_dataset=ds["train"],
         eval_dataset=ds["validation"],
         peft_config=lora_config,
         formatting_func=None,
-        max_seq_length=args.max_seq_len,
-        data_collator=chat_collate,
-        packing=False,
+        args=training_args,
     )
 
     trainer.train()

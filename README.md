@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 ```bash
 python src/train.py \
-  --base_model meta-llama/Llama-3.1-8B-Instruct \
+  --base_model Qwen/Qwen2.5-1.5B-Instruct \
   --train_file data/train.jsonl \
   --valid_file data/valid.jsonl \
   --output_dir outputs/lora \
@@ -92,9 +92,22 @@ python src/train.py \
 
 ### Interactive Intake (Terminal UI)
 
+**Simple way (recommended):**
+
 ```bash
-BASE_MODEL=meta-llama/Llama-3.1-8B-Instruct ADAPTER_DIR=outputs/lora \
+python test_chat.py
+```
+
+**Or run directly:**
+
+```bash
 python src/terminal_chat.py
+```
+
+**Or with custom settings:**
+
+```bash
+BASE_MODEL=Qwen/Qwen2.5-1.5B-Instruct ADAPTER_DIR=outputs/lora python src/terminal_chat.py
 ```
 
 In the session:
@@ -119,7 +132,7 @@ Outputs:
 
 ```bash
 python src/eval.py \
-  --base_model meta-llama/Llama-3.1-8B-Instruct \
+  --base_model Qwen/Qwen2.5-1.5B-Instruct \
   --adapter_dir outputs/lora \
   --valid_file data/valid.jsonl
 ```

@@ -17,7 +17,17 @@ def main():
     args = build_argparser().parse_args()
 
     tok = AutoTokenizer.from_pretrained(args.adapter_dir if os.path.isdir(args.adapter_dir) else args.base_model, use_fast=True)
-    base = AutoModelForCausalLM.from_pretrained(args.base_model, torch_dtype="auto", device_map="auto")
+    
+    # Use float32 for MPS compatibility
+    import torch
+    if torch.backends.mps.is_available():
+        torch_dtype = torch.float32
+        device_map = None
+    else:
+        torch_dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
+        device_map = "auto" if torch.cuda.is_available() else None
+    
+    base = AutoModelForCausalLM.from_pretrained(args.base_model, torch_dtype=torch_dtype, device_map=device_map)
     if os.path.isdir(args.adapter_dir):
         base = PeftModel.from_pretrained(base, args.adapter_dir)
 

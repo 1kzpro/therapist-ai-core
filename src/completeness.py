@@ -1,5 +1,5 @@
 from typing import List, Dict, Any
-from .utils import deep_get
+from utils import deep_get
 
 # Minimal set; extend to your needs
 REQUIRED_FIELDS = [
