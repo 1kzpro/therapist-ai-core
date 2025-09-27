@@ -101,11 +101,13 @@ def main():
     print("Type your replies. Commands: /done (finish)  /show (show collected state)  /quit")
     print("-" * 60)
 
-    # seed greeting question
-    messages.append({"role":"user","content":"Start the intake with the most important missing field."})
-    assistant = gen(model, tok, messages, max_new=256)
-    print("\nAssistant:", assistant)
-    messages.append({"role":"assistant","content":assistant})
+    # initial assistant greeting (configurable)
+    initial_greeting = os.environ.get(
+        "INITIAL_GREETING",
+        "Hello, I'm your primary care intake assistant. What brings you in today?"
+    )
+    print("\nAssistant:", initial_greeting)
+    messages.append({"role":"assistant","content":initial_greeting})
 
     while True:
         user = input("\nYou: ").strip()
@@ -144,7 +146,9 @@ def main():
         else:
             messages.append({"role":"user","content":f"We still need: {', '.join(miss)}. Ask ONE concise question to collect the most important missing item."})
 
-        assistant = gen(model, tok, messages[-2:], max_new=256)  # respond to last instruction
+        # Always include the system prompt plus a short rolling history
+        context = [messages[0]] + messages[1:][-6:]
+        assistant = gen(model, tok, context, max_new=256)
         print("\nAssistant:", assistant)
         messages.append({"role":"assistant","content":assistant})
 
